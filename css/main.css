@@ -1,0 +1,271 @@
+/**
+	General
+**/
+body {
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
+}
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 72px;
+	color: #9473cc;
+}
+h2 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 48px;
+	color: #faa41a;
+}
+h3 {
+	margin: 45px 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+	color: #64479b;
+	text-align: center;
+}
+p {
+	font-size: 18px;
+	line-height: 2em;
+}
+img {
+	display: block;
+	margin: auto;
+	width: 300px;
+}
+a {
+	color: #ffffff;
+	font-size: 18px;
+	padding: 15px;
+	text-decoration: none;
+}
+a:focus {
+	color: #ffffff;
+	text-decoration: none;
+}
+a:hover {
+	color: #9473cc;
+	text-decoration: none;
+}
+
+/**
+	Header Block
+**/
+.navbar {
+	background: #3c3c3c;
+}
+.navbar-brand>img {
+	width: 120px;
+	z-index: 2;
+}
+
+/**
+	Mobile Menu Button
+**/
+.navbar-inverse .navbar-toggle {
+	border-color: #9473cc;
+}
+.navbar-inverse .navbar-toggle:focus {
+	background: #ffffff;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background: #ffffff;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+	background: #9473cc;
+}
+
+/**
+	Main Menu
+**/
+.navbar-right {
+	margin-right: 0;
+}
+.navbar-inverse .navbar-collapse {
+	border-color: #9473cc;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #ffffff;
+	font-size: 18px;
+	text-decoration: none;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #9473cc;
+	text-decoration: none;
+}
+
+/**
+	Home Block
+**/
+.block-home {
+	position: relative;
+	margin: 0 -15px;
+}
+.home-content {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%);
+	text-align: center;	
+	z-index: 2;
+	width: 100%;
+}
+
+/**
+	Home Icons
+**/
+.home-icons {
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%);
+	z-index: 2;
+}
+.home-icon {
+	display: inline-block;
+}
+.home-icon>a {
+	margin: 15px;
+}
+.home-icon.icon-linkedin>a:hover {
+	color: #0077b5;
+}
+.home-icon.icon-github>a:hover {
+	color: #000000;
+}
+.home-icon.icon-fcc>a:hover {
+	color: #006400;
+}
+
+/**
+	Home Video Background
+**/
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #3c3c3c;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 1;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+		height: inherit;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
+}
+
+/**
+	About Section
+**/
+.block-about {
+	margin: 30px -15px;
+}
+.about-title {
+	padding-top: 30px;
+}
+.about-item p {
+	margin: 0px 45px;
+}
+.about-item>img {
+	border: solid #64479b 5px;
+	border-radius: 50%;
+}
+
+/**
+	Portfolio Section
+**/
+.block-portfolio {
+	margin: 30px -15px 0;
+	background: #e8e8e8;
+}
+.portfolio-title{
+	padding-top: 30px;
+}
+.portfolio-items{
+	padding-bottom: 45px;
+}
+
+/**
+	Contact Block
+**/
+.block-contact {
+	background-image: url("../img/contact.jpg");
+	min-height: 600px;
+	margin: 0 -15px;
+}
+.contact-title>h3 {
+	margin: 0;
+	padding: 75px 0 45px;
+}
+.contact-content>p {
+	margin: 0px;
+	font-size: 24px;
+	text-align: center;
+}
+
+/**
+	Footer Block
+**/
+.block-footer {
+	margin: 0 -15px;
+	background: #3c3c3c;
+	height: 50px;
+	position: relative;
+}
+.connect {
+	text-align: center;
+	padding: 45px;
+}
+.connect>a {
+	color: #3c3c3c;
+}
+.connect>i {
+	display: inline-block;
+}
+
+/**
+	Footer Menu
+**/
+.menu-items {
+	float: right;
+	transform: translateY(50%);
+
+}
+.menu-item {
+	float: left;
+}
+
+/**
+	Copyright
+**/
+.copyright {
+	width: 200px;
+	margin: 0 15px;
+	font-size: 12px;
+	color: #ffffff;	
+	position: absolute;
+	bottom: 0%;
+}
